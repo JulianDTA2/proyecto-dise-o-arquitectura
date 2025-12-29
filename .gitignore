@@ -1,0 +1,90 @@
+############################################
+# OS / Editor
+############################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+############################################
+# IntelliJ IDEA
+############################################
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+############################################
+# VS Code
+############################################
+.vscode/
+
+############################################
+# Logs
+############################################
+*.log
+logs/
+**/logs/
+
+############################################
+# Environment files (no subir secretos)
+############################################
+.env
+.env.*
+!.env.example
+
+############################################
+# Java / Maven
+############################################
+# Maven build outputs
+**/target/
+# Maven wrapper binaries (SI subir wrapper scripts si los tienes)
+# (no ignores mvnw / mvnw.cmd)
+.mvn/wrapper/maven-wrapper.jar
+
+############################################
+# Gradle (por si alguien lo genera por accidente)
+############################################
+**/build/
+.gradle/
+
+############################################
+# Node / React (Vite)
+############################################
+**/node_modules/
+**/dist/
+**/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################################
+# Coverage / Test reports
+############################################
+**/coverage/
+**/.nyc_output/
+**/surefire-reports/
+**/failsafe-reports/
+
+############################################
+# Spring / Java artifacts
+############################################
+*.class
+*.jar
+*.war
+*.ear
+
+############################################
+# Local config / temp
+############################################
+*.tmp
+*.swp
+*.swo
+
+############################################
+# Docker
+############################################
+# No ignores docker-compose.yml (sí se versiona)
+# Ignorar archivos locales de override si los usas
+docker-compose.override.yml
